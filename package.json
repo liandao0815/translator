@@ -3,13 +3,14 @@
   "displayName": "translator",
   "publisher": "liandao",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.67.0"
   },
   "categories": [
     "Other"
   ],
+  "icon": "icon.jpg",
   "main": "./out/extension.js",
   "activationEvents": [
     "onStartupFinished"

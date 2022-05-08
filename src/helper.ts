@@ -80,7 +80,7 @@ function queryTranslateValue(text: string): string[] {
 
     if (stat.isFile()) {
       const dict = require(`./dictionary/${unicodeKey}.json`);
-      return dict[text] || [];
+      return dict[text.toLowerCase()] || [];
     }
   }
   return [];
