@@ -1,6 +1,7 @@
 {
-  "name": "translator",
+  "name": "vscode-code-translator",
   "displayName": "translator",
+  "publisher": "liandao",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -10,7 +11,6 @@
     "Other"
   ],
   "main": "./out/extension.js",
-  "icon": "icon.jpg",
   "activationEvents": [
     "onStartupFinished"
   ],
